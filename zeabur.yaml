@@ -1,0 +1,4 @@
+build:
+  install: bun install
+  build: bun run build     # 你的 package.json 里有 build 脚本
+  start: bun run dist/socket.js
